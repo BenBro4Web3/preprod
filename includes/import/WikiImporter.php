@@ -769,7 +769,7 @@ class WikiImporter {
 			}
 		} finally {
 			// phpcs:ignore Generic.PHP.NoSilencedErrors
-			@libxml_disable_entity_loader(bool $disable = false): bool;
+			@libxml_disable_entity_loader( $oldDisable );
 			$this->reader->close();
 		}
 
