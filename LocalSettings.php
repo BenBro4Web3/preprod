@@ -70,7 +70,8 @@ $wgDBserver = "bb294426-002.eu.clouddb.ovh.net:35652";
 $wgDBname = "benjamin_brochard";
 $wgDBuser = "agenccs";
 $wgDBpassword = "zjMQy2PQLH5xC5";
-
+$wgGroupPermissions['user']['import'] = true;
+$wgGroupPermissions['user']['importupload'] = true;
 # MySQL specific settings
 $wgDBprefix = "en_";
 
