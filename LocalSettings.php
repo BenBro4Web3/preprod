@@ -136,7 +136,7 @@ $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['*']['edit'] = false;
 $wgShowExceptionDetails = true;
 $wgDevelopmentWarnings = true; error_reporting( -1 ); ini_set( 'display_errors', 1); error_reporting(E_ALL);
-$wgPygmentizePath = 'D:/xampp/htdocs/mywiki/extensions/SyntaxHighlight_GeSHi/pygments/pygmentize.pyc';
+$wgPygmentizePath = 'D:/xampp/htdocs/mywiki/extensions/SyntaxHighlight_GeSHi/pygments/pygmentize';
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
 $wgDefaultSkin = "vector";
