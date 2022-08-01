@@ -134,7 +134,8 @@ $wgDiff3 = "/usr/bin/diff3";
 # The following permissions were set based on your choice in the installer
 $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['*']['edit'] = false;
-
+$wgShowExceptionDetails = true;
+$wgDevelopmentWarnings = true; error_reporting( -1 ); ini_set( 'display_errors', 1); error_reporting(E_ALL);
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
 $wgDefaultSkin = "vector";
