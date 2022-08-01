@@ -72,6 +72,7 @@ $wgDBuser = "agenccs";
 $wgDBpassword = "zjMQy2PQLH5xC5";
 $wgGroupPermissions['user']['import'] = true;
 $wgGroupPermissions['user']['importupload'] = true;
+$wgWBRepoSettings['allowEntityImport'] = true;
 # MySQL specific settings
 $wgDBprefix = "en_";
 
