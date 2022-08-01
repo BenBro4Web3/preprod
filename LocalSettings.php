@@ -134,6 +134,10 @@ $wgDiff3 = "/usr/bin/diff3";
 # The following permissions were set based on your choice in the installer
 $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['user']['datatransferimport'] = true;
+$wgGroupPermissions['*']['datatransferimport'] = true;
+$wgDataTransferViewXMLParseFreeText = false;
+$wgDataTransferViewXMLParseFields = true;
 $wgShowExceptionDetails = true;
 $wgDevelopmentWarnings = true; error_reporting( -1 ); ini_set( 'display_errors', 1); error_reporting(E_ALL);
 $wgPygmentizePath = 'D:/xampp/htdocs/mywiki/extensions/SyntaxHighlight_GeSHi/pygments/pygmentize';
@@ -153,6 +157,7 @@ wfLoadSkin( 'Vector' );
 # wfLoadExtension( 'ExtensionName' );
 # to LocalSettings.php. Check specific extension documentation for more details.
 # The following extensions were automatically enabled:
+wfLoadExtension( 'DataTransfer' );
 wfLoadExtension( 'AbuseFilter' );
 wfLoadExtension( 'CategoryTree' );
 wfLoadExtension( 'Cite' );
